@@ -1,0 +1,256 @@
+﻿/*body
+{
+    margin:0px;
+}
+*/
+
+.MenuBack
+{
+height:83px;
+background: url(images/GrayBack.jpg) top left repeat-x;
+position:relative;
+border: 1px solid #B34C00;
+border-radius: 4px; /*To make the corners rounded in IE*/
+-moz-border-radius: 4px; /*this is for mozilla*/
+-webkit-border-radius: 4px; /*chrome and other browsers*/
+box-shadow: 0 1px 1px #dddddd inset;
+-moz-box-shadow: 0 1px 1px #dddddd inset;
+-webkit-box-shadow: 0 1px 1px #dddddd inset;
+text-align:left;
+
+}
+
+.MainMenu
+{
+    position:relative;
+    top:10px;
+}
+.MainMenu td
+{
+    vertical-align:bottom;
+}
+
+.MainMenuItem
+{
+    background: url(images/wb.jpg) top left repeat;
+    margin: 0px 2px;
+}
+
+.MainMenuItema
+{
+    background: url(images/wtl.jpg) top left no-repeat;
+}
+
+.MainMenuItemb
+{
+    background: url(images/wtr.jpg) top right no-repeat;
+}
+
+.MainMenuItem a
+{
+    height:25px;
+    padding: 10px 20px 0px 20px;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: Gray;
+    text-decoration: none;
+    text-align:left;
+      box-shadow:0px 0px 5px #000;
+}
+
+
+.MainMenuItem.FirstChild
+{
+}
+.MainMenuItem.FirstChild a
+{
+    width:150px;
+    height:50px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.MainMenuItem.Selected 
+{
+    background: url(images/gb.jpg) top left repeat;
+}
+.MainMenuItem.Selected .MainMenuItema
+{
+    background: url(images/gt.jpg) top left repeat-x;
+}
+.MainMenuItem.Selected .MainMenuItemb
+{
+    background: url(images/gtl.jpg) top left no-repeat;
+}
+.MainMenuItem.Selected .MainMenuItemc
+{
+    background: url(images/gtr.jpg) top right no-repeat;
+}
+
+.MainMenuItem.Selected a
+{
+    color:White;
+}
+
+
+
+.SecondMenu
+{
+    position:absolute;
+    background: url(images/sgb.jpg) top left repeat;
+    margin:0px 2px 0px 5px;
+    height:10px;
+    padding-bottom:10px;    
+}
+
+.SecondMenua
+{
+    background: url(images/sgl.jpg) top left no-repeat;
+}
+
+.SecondMenub
+{
+    background: url(images/sgr.jpg) top right no-repeat;
+    padding-left:10px;
+}
+
+.SecondMenuItem
+{
+    background: url(images/sgdiv.jpg) top right no-repeat;
+}
+
+.SecondMenuItem a
+{
+    padding: 3px 20px 2px 20px;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align:left;
+}
+
+.SecondMenuItem.LastChild
+{
+    background-image:none;
+}
+
+.SecondMenuSubMenu
+{
+    background: url(images/grb.jpg) top left repeat;
+    padding-bottom:4px;
+}
+
+.SecondMenuSubMenuItem
+{
+}
+
+.SecondMenuSubMenuItem a
+{
+    padding: 1px 5px 5px 5px;
+    color:white;
+    text-decoration:none;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+    font-size: 12px;
+    background: url(images/grdiv.jpg) bottom left repeat-x;
+    text-align:left;
+}
+
+.SecondMenuSubMenuItem.LastChild a
+{
+    background:none;
+}
+
+.SecondMenuSubMenuItem a:hover
+{
+    color: yellow;
+}
+
+.SubMenuParent.active .SecondMenuItem a
+{
+    color:yellow;
+}
+
+.SubMenuParent.active .SecondMenuItem
+{
+    background: url(images/grb.jpg) top left repeat;
+}
+/*
+.SubMenuParent.active .SecondMenuItema
+{
+    background: url(images/grt.jpg) top left repeat-x;
+}
+    */
+
+/*.SubMenuParent.active .SecondMenuItemb
+{
+    background: url(images/grl.jpg) top left no-repeat;
+}
+/*
+.SubMenuParent.active .SecondMenuItemc
+{
+    background: url(images/grr.jpg) top right no-repeat;
+}*/
+
+
+
+/*--- Special html menus ---*/
+.EmailSubMenu
+{
+    padding:5px 10px 20px 5px;
+    cursor: default;
+    font-family: trebuchet ms, arial, verdana, sans-serif;
+}
+
+.EmailSubMenu a
+{
+    text-decoration:none;
+}
+
+.EmailSubMenu td
+{
+}
+
+.SSMO {vertical-align:top;}
+.SSMS
+{
+    width:15px;
+}
+
+.SSMI
+{
+    white-space:nowrap;
+    vertical-align:bottom;
+}
+
+.SSMI:hover
+{
+    background-color: #727272;
+    cursor:pointer;
+}
+.SSMHead
+{
+    color: #A2C340;
+    font-size: 18px;
+    font-weight: bold;
+    white-space:nowrap;
+    vertical-align:bottom;
+}
+
+.SSMH2
+{
+    padding-left:4px;
+    color:White;
+    font-size:14px;
+    font-weight: bold;
+    border-top: dotted 1px white;
+}
+
+.SSMIBody
+{
+    padding-left:4px;
+    color:White;
+    font-size:12px;
+    white-space:nowrap;
+}
