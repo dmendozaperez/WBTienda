@@ -7,6 +7,7 @@ namespace WB_ClienteBata.Bll
 {
     public class Conexion
     {
+        /*primero*/
         //static string strconexion = ConfigurationManager.ConnectionStrings["MyConexionSql"].ConnectionString;
         static string strconexion = "Server=10.10.10.208;Database=BdTienda;User ID=sa;Password=Bata2013;Trusted_Connection=False;";
 
