@@ -10,7 +10,7 @@ namespace WB_ClienteBata.Bll
     {
         public static void logout(HttpSessionState session, System.Web.HttpResponse response)
         {
-            string url = FormsAuthentication.LoginUrl;
+            string url = "~/Comunicado/Control/LoginForm.aspx";//FormsAuthentication.LoginUrl;
             session.Clear();
             session.Abandon();
             FormsAuthentication.SignOut();

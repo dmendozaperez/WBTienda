@@ -33,7 +33,7 @@ namespace WB_ClienteBata
             //{
             string _tienda = (string)Session["tienda"];//this.Request.Params["Opcion"].ToString() ;
 
-           // _tienda = "50111";
+            // _tienda = "50111";
 
             string _ruta = "~\\Documento\\" + _tienda;
             //string _ruta = "~\\" + _tienda;
@@ -66,55 +66,55 @@ namespace WB_ClienteBata
         protected void Page_Load(object sender, EventArgs e)
         {
 
-           // //if (Session[Constants.NameSessionUser] == null) Utilities.logout(Page.Session, Page.Response);
-           // //else
-           // //    _user = (Users)Session[Constants.NameSessionUser];
-           // if (!IsPostBack)
-           // {
-           //     //if (Session["pass"].ToString() != "123")
-           //     //{
-           //     //    ASPxFileManager1.SettingsFileList.DetailsViewSettings.AllowColumnSort = true;
-           //     //}
-           //     //else
-           //     //{
-           //     //    //Response.Redirect("update_password.aspx");
-           //     //}
-           // }
+            // //if (Session[Constants.NameSessionUser] == null) Utilities.logout(Page.Session, Page.Response);
+            // //else
+            // //    _user = (Users)Session[Constants.NameSessionUser];
+            // if (!IsPostBack)
+            // {
+            //     //if (Session["pass"].ToString() != "123")
+            //     //{
+            //     //    ASPxFileManager1.SettingsFileList.DetailsViewSettings.AllowColumnSort = true;
+            //     //}
+            //     //else
+            //     //{
+            //     //    //Response.Redirect("update_password.aspx");
+            //     //}
+            // }
 
-           //// Session["Opcion"] = "Emcomer";
-           // //if (!IsPostBack)
-           // //{
-           // string _tienda = (string)Session["tienda"];//this.Request.Params["Opcion"].ToString() ;
+            //// Session["Opcion"] = "Emcomer";
+            // //if (!IsPostBack)
+            // //{
+            // string _tienda = (string)Session["tienda"];//this.Request.Params["Opcion"].ToString() ;
 
-           // _tienda = "50111";
+            // _tienda = "50111";
 
-           // string _ruta = "~\\Documento\\" + _tienda;
-           // //string _ruta = "~\\" + _tienda;
+            // string _ruta = "~\\Documento\\" + _tienda;
+            // //string _ruta = "~\\" + _tienda;
 
-           // // _ruta = @"D:\David\Sist_ComunicacionTDA\WB_Comunicado\WB_DocManual\Documento\" + _tienda;
+            // // _ruta = @"D:\David\Sist_ComunicacionTDA\WB_Comunicado\WB_DocManual\Documento\" + _tienda;
 
-           // string _path_Formularios = _ruta + "\\Formularios";
+            // string _path_Formularios = _ruta + "\\Formularios";
 
-           // bool exists = System.IO.Directory.Exists(Server.MapPath(_ruta));
+            // bool exists = System.IO.Directory.Exists(Server.MapPath(_ruta));
 
-           // bool exists_form= System.IO.Directory.Exists(Server.MapPath(_path_Formularios));
+            // bool exists_form= System.IO.Directory.Exists(Server.MapPath(_path_Formularios));
 
-           // if (!exists)
-           //     System.IO.Directory.CreateDirectory(Server.MapPath(_ruta));
+            // if (!exists)
+            //     System.IO.Directory.CreateDirectory(Server.MapPath(_ruta));
 
-           // if (!exists_form)
-           //     System.IO.Directory.CreateDirectory(Server.MapPath(_path_Formularios));
+            // if (!exists_form)
+            //     System.IO.Directory.CreateDirectory(Server.MapPath(_path_Formularios));
 
-           // if (_tienda != null)
-           // {
-           //     //ASPxFileManager1.Settings.RootFolder = "~\\Documento\\" + _emp;
-           //     ASPxFileManager1.Settings.RootFolder = _ruta;
-                
-           // }
-           // else
-           // {
-           //     ASPxFileManager1.Visible = false;
-           // }
+            // if (_tienda != null)
+            // {
+            //     //ASPxFileManager1.Settings.RootFolder = "~\\Documento\\" + _emp;
+            //     ASPxFileManager1.Settings.RootFolder = _ruta;
+
+            // }
+            // else
+            // {
+            //     ASPxFileManager1.Visible = false;
+            // }
             //}
 
         }

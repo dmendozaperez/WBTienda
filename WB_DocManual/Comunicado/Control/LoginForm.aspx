@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Design/Site.Master" AutoEventWireup="true" CodeBehind="LoginForm.aspx.cs" Inherits="WB_ClienteBata.Control.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Design/Site.Master" AutoEventWireup="true" CodeBehind="
+    Form.aspx.cs" Inherits="WB_ClienteBata.Control.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderTitle" runat="server">
   <%--   <script language="Javascript" type="text/javascript" src="http://api.easyjquery.com/easyjquery.js"></script>--%>
     <script src="../../Scripts/Js/logInJs.js" type="text/javascript"></script>
