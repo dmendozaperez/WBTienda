@@ -126,7 +126,7 @@
 	            e.file.Download();
 	            e.processOnServer = false;
             }" />
-            <Settings RootFolder="~\Publicado" AllowedFileExtensions=".doc,.docs,.pdf,.xls,.xlsx" ThumbnailFolder="~\Thumb\" />
+            <Settings RootFolder="~\Publicado" AllowedFileExtensions=".doc,.docs,.pdf,.xls,.xlsx,.mp4" ThumbnailFolder="~\Thumb\" />
             <SettingsEditing AllowCreate="True" AllowDelete="True" AllowDownload="True" AllowMove="True" AllowRename="True" />
           <SettingsDataSource KeyFieldName="Id" ParentKeyFieldName="ParentID" NameFieldName="Name" IsFolderFieldName="IsFolder" 
             FileBinaryContentFieldName="Data" LastWriteTimeFieldName="LastWriteTime" />

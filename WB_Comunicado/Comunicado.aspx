@@ -12,7 +12,7 @@
 	            e.file.Download();
 	            e.processOnServer = false;
             }" />
-            <Settings RootFolder="" AllowedFileExtensions=".doc,.docs,.pdf,.xls,.xlsx" ThumbnailFolder="~\Thumb\" />
+            <Settings RootFolder="" AllowedFileExtensions=".doc,.docs,.pdf,.xls,.xlsx,.mp4" ThumbnailFolder="~\Thumb\" />
             <SettingsEditing AllowDownload="True" />
             <SettingsUpload Enabled="False">
             </SettingsUpload>        
